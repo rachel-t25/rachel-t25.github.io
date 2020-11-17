@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Altering Colours</title>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/aladin:n4:default.js" type="text/javascript"></script>
+
+<style type="text/css">
+body,td,th {
+    font-family:Sans serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #FFFFFF;
+}
+body {
+    background-color: #000000;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+	}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+	.topnav a{
+		padding: 10px;
+		color:white;
+	}
+	
+body img{
+		text-align: center;
+		vertical-align: middle;
+	}
+</style>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="topnav" font>
+  <a href="photoshop.html">Home</a>
+  <a href="Saving the document.html">Saving the Document</a>
+  <a href="Altering Colours.html">Altering Colours</a>
+	<a href="Contact Us.html">Contact Us</a><a name="top"></a></div>
+<h1>How to Alter Colours in Photoshop</h1>
+  <p>To change the color of an object with professional results, control all three of these essential characteristics of color: hue (the color), saturation (the intensity of the color), and brightness (the lightness and darkness of the color).</p>
+  <p><strong>Select an object</strong></p>
+  <ul>
+    <li>Select the Object Selection tool in the Toolbar, and drag a rectangle across the entire object. This creates a selection that automatically shrinks to the edges of the object.</li>
+  </ul>
+  <p><strong>Create a layer group and apply a mask to the group</strong></p>
+  <ol>
+    <li>In the Layers panel, click the Create New Group button to create a layer group.</li>
+    <li>With the selection still active, click the Add Layer Mask button in the Layers panel to create a mask in the shape of the selection around the object. Adding a mask to the group will allow you to use one mask to affect multiple layers in the following steps.</li>
+  </ol>
+  <p><strong>Apply a new color and adjust its hue and saturation</strong></p>
+  <ol>
+    <li>Click the Create New Fill or Adjustment Layer button in the Layers panel, and select Solid Color. This adds a Color fill layer inside the layer group. The mask on the layer group limits the solid color to the object.</li>
+    <li>Select the new color that you want to apply to the object and click OK. The object now appears to be filled with that solid color.</li>
+    <li>With the Color fill layer still selected, open the Blending Modes menu in the Layers panel, and click the Color blending mode. The Color blending mode applies the hue and saturation of the new color but retains the brightness of the original color of the object.</li>
+  </ol>
+<p><strong>Adjust the brightness of the new color</strong></p>
+  <ol>
+    <li>Click the Create New Adjustment Layer button in the Layers panel, and choose Levels. This adds a Levels adjustment layer.</li>
+    <li>Drag the Levels adjustment layer below the Color fill layer in the layer group.</li>
+    <li>Use the Input Levels sliders in the Properties panel to brighten up the object. For example, you can drag the white slider to the left to brighten the object and drag the gray slider farther to the left to increase contrast. These adjustments affect the third component of color—brightness—giving the object with its new color the appearance of texture and shading.</li>
+  </ol>
+	<center>
+  <img src="eye sketch.jpg 2.jpg" alt="" width="647" height="434" align="centre">
+	</center>
+<a href="#top"><img src="icon.png" alt="" width="71" height="65" align="right"/></a>
+</body>
+</html>
